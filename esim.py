@@ -1,6 +1,6 @@
-nimi = input ("Anna nimesi")
-ika = int(input ("Anna ikasi"))
+raha = float(input("Paljonko sinulla on rahaa? "))
 
-uusiika = ika + 10
-ss
-print("Hei olen", nimi, "ja olen", ika, "vuotta vanha. Kymmenen vuoden kultuua olen", uusiika, "vuotta vanha.")
+if raha >= 5:
+    print("Sinulla on tarpeeksi rahaa ostaa olut.")
+else:
+    print("Sinulta puuttuu", 5-raha, "euroa oluen ostamiseen.")
